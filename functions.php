@@ -28,3 +28,17 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+
+/**
+ * Issue: #12
+ * Created by: @TobiasGomez
+ * Review by: @
+ * Version: 1.0
+ */
+
+declare(strict_types=1);
+function farenheit(int $gradosCelsius){
+    return ($gradosCelsius * 9/5) + 32;
+}
+$gradosFarenheit = farenheit(25);
+echo $gradosFarenheit;
