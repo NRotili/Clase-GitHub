@@ -32,7 +32,7 @@
 /**
  * Issue: #1
  * Created by: @nrotili
- * Review by:
+ * Review by:@iaferaboli
  * Version: 1.0
  */
  function suma($a, $b) {
