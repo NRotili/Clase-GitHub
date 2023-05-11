@@ -37,5 +37,5 @@
  */
 
 function farenheit($gradosCelsius){
-    return ($gradosCelsius * 9/5) + 32;
+    return ($gradosCelsius * (9/5)) + 32;
 }
