@@ -42,7 +42,7 @@
 /**
  * Issue: #6
  * Created by: @iaferaboli
- * Review by:
+ * Review by: @TobiasGomez
  * Version: 1.0
  */
 
