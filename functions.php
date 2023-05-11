@@ -40,5 +40,3 @@ declare(strict_types=1);
 function farenheit(int $gradosCelsius){
     return ($gradosCelsius * 9/5) + 32;
 }
-$gradosFarenheit = farenheit(25);
-echo $gradosFarenheit;
