@@ -36,7 +36,6 @@
  * Version: 1.0
  */
 
-declare(strict_types=1);
-function farenheit(int $gradosCelsius){
+function farenheit($gradosCelsius){
     return ($gradosCelsius * 9/5) + 32;
 }
