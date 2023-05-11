@@ -28,3 +28,15 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+
+/**
+ * Issue: #3
+ * Created by: @iaferaboli
+ * Review by:
+ * Version: 1.0
+ */
+
+ function calc_area_circulo($radio){
+    $pi_value = 3.14;
+    return $pi_value * $radio**2;
+ }
