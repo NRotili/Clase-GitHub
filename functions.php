@@ -35,6 +35,7 @@
  * Version: 1.0
  */
 
+
 /**
  * Issue: #1
  * Created by: @nrotili
@@ -109,7 +110,25 @@ function hipotenuza($n, $m)
     return sqrt($h);
 };
 
+/**
+ * Issue: #4
+ * Created by: @mariano008
+ * Review by: @hernansequeira
+ * Version: 1.0
+ */
+
 function menormayor($nums){
     return asort ($nums);
+}
+
+
+//  Issue: #2
+//  Created by: @EstebanL650
+//  Review by: @iaferaboli
+//  Version: 1.0
+ 
+
+function nums($base, $altura){
+   return $base * $altura/2;
 }
 
