@@ -38,3 +38,22 @@
  function suma($a, $b) {
    return $a + $b;
  }
+
+/**
+ * Issue: #6
+ * Created by: @iaferaboli
+ * Review by:
+ * Version: 1.0
+ */
+
+
+//Como operador, necesito una función que determine si un número es par o impar.
+
+function par_nopar ($num){
+    if($num%2 == 0){
+        return "Es par.". "<br>";
+    } else {
+        return "Es impar.". "<br>";
+    }
+};
+
