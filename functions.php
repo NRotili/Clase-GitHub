@@ -28,3 +28,13 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+
+/**
+ * Issue: #1
+ * Created by: @nrotili
+ * Review by:
+ * Version: 1.0
+ */
+ function suma($a, $b) {
+   return $a + $b;
+ }
