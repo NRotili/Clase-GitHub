@@ -38,3 +38,14 @@
  function suma($a, $b) {
    return $a + $b;
  }
+
+ /**
+ * Issue: #13
+ * Created by: @TobiasGomez
+ * Review by:@
+ * Version: 1.0
+ */
+
+function celsius($gradosFarenheit){
+    return ($gradosFarenheit-32)*(5/9);
+}
