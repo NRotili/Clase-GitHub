@@ -28,3 +28,16 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+
+/**
+ * Issue: #20
+ * Created by: @iaferaboli
+ * Review by: 
+ * Version: 1.0
+ */
+
+
+ function combine_lists($list1, $list2){
+    $list3 = array_merge($list1, $list2);
+    return $list3;
+ }
