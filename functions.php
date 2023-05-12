@@ -57,3 +57,13 @@ function par_nopar ($num){
     }
 };
 
+//  * Issue: #3
+//  * Created by: @iaferaboli
+//  * Review by:@EstebanL650
+//  * Version: 1.0
+//  */
+
+ function calc_area_circulo($radio){
+    $pi_value = 3.14;
+    return $pi_value * $radio**2;
+ }
