@@ -28,6 +28,12 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+/**
+ * Issue: #1
+ * Created by: @nrotili
+ * Review by: @hernansequeira
+ * Version: 1.0
+ */
 
 /**
  * Issue: #1
@@ -39,6 +45,7 @@
    return $a + $b;
  }
 
+
  /**
  * Issue: #13
  * Created by: @TobiasGomez
@@ -49,3 +56,60 @@
 function celsius($gradosFarenheit){
     return ($gradosFarenheit-32)*(5/9);
 }
+
+/**
+ * Issue: #6
+ * Created by: @iaferaboli
+ * Review by: @TobiasGomez
+ * Version: 1.0
+ */
+
+
+//Como operador, necesito una función que determine si un número es par o impar.
+
+function par_nopar ($num){
+    if($num%2 == 0){
+        return "Es par.". "<br>";
+    } else {
+        return "Es impar.". "<br>";
+    }
+};
+
+//  * Issue: #3
+//  * Created by: @iaferaboli
+//  * Review by:@EstebanL650
+//  * Version: 1.0
+//  */
+
+ function calc_area_circulo($radio){
+    $pi_value = 3.14;
+    return $pi_value * $radio**2;
+ };
+ /*
+ * Issue: #15
+ * Created by: @VanesaLSilva
+ * Review by:@EmmanuelAngelozzi 
+ * Version: 1.0
+ */
+function lista($num1){
+    rsort($num1);
+    return $num1[0];
+};
+/**
+ * Issue: #5
+ * Created by: @EmmanuelAngelozzi
+ * Review by: @VanesaLSilva
+ * Version: 1.0
+ */
+//Como operador necesito una función que calcule la hipotenusa (h2=n2+m2) de un triángulo rectángulo dados sus catetos.
+
+function hipotenuza($n, $m)
+{
+    $h = $m*2 + $n*2;
+    return sqrt($h);
+};
+
+function menormayor($nums){
+    return asort ($nums);
+}
+
