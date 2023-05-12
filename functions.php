@@ -90,3 +90,6 @@ function hipotenuza($n, $m)
     $h = $m*2 + $n*2;
     return sqrt($h);
 };
+function menormayor($nums){
+    return asort ($nums);
+}
