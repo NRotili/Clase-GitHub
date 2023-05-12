@@ -28,3 +28,7 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+
+function menormayor($nums){
+    return asort ($nums);
+}
