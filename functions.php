@@ -28,6 +28,12 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+/**
+ * Issue: #1
+ * Created by: @nrotili
+ * Review by: @hernansequeira
+ * Version: 1.0
+ */
 
 /**
  * Issue: #1
@@ -90,6 +96,7 @@ function hipotenuza($n, $m)
     $h = $m*2 + $n*2;
     return sqrt($h);
 };
+
 function menormayor($nums){
     return asort ($nums);
 }
