@@ -32,7 +32,7 @@
 /**
  * Issue: #12
  * Created by: @TobiasGomez
- * Review by: @
+ * Review by: @BenjaminBodrero
  * Version: 1.0
  */
 
