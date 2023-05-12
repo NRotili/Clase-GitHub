@@ -69,7 +69,7 @@ function par_nopar ($num){
  }
  * Issue: #15
  * Created by: @VanesaLSilva
- * Review by: 
+ * Review by:@EmmanuelAngelozzi 
  * Version: 1.0
  */
 function lista($num1){
