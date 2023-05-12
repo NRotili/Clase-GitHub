@@ -66,7 +66,8 @@ function par_nopar ($num){
  function calc_area_circulo($radio){
     $pi_value = 3.14;
     return $pi_value * $radio**2;
- }
+ };
+ /*
  * Issue: #15
  * Created by: @VanesaLSilva
  * Review by:@EmmanuelAngelozzi 
@@ -75,4 +76,4 @@ function par_nopar ($num){
 function lista($num1){
     rsort($num1);
     return $num1[0];
-}
+};
