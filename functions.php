@@ -45,6 +45,18 @@
    return $a + $b;
  }
 
+
+ /**
+ * Issue: #13
+ * Created by: @TobiasGomez
+ * Review by:@
+ * Version: 1.0
+ */
+
+function celsius($gradosFarenheit){
+    return ($gradosFarenheit-32)*(5/9);
+}
+
 /**
  * Issue: #6
  * Created by: @iaferaboli
@@ -100,3 +112,4 @@ function hipotenuza($n, $m)
 function menormayor($nums){
     return asort ($nums);
 }
+
