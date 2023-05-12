@@ -28,3 +28,20 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+
+/**
+ * Issue: #5
+ * Created by: @EmmanuelAngelozzi
+ * Review by: 
+ * Version: 1.0
+ */
+//Como operador necesito una función que calcule la hipotenusa (h2=n2+m2) de un triángulo rectángulo dados sus catetos.
+
+hipotenuza(7, 2);
+
+function hipotenuza($n, $m)
+{
+    $h = $m*2 + $n*2;
+    return sqrt($h);
+}
+echo hipotenuza(7,2);
