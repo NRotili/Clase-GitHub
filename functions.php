@@ -79,7 +79,7 @@ function lista($num1){
 };
  * Issue: #5
  * Created by: @EmmanuelAngelozzi
- * Review by: 
+ * Review by: @VanesaLSilva
  * Version: 1.0
  */
 //Como operador necesito una función que calcule la hipotenusa (h2=n2+m2) de un triángulo rectángulo dados sus catetos.
