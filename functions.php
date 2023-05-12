@@ -29,3 +29,7 @@
 
 // Comenzar las funciones a partir de esta línea.
 
+function maspequeño($arreglo) {
+    asort($arreglo);
+    return $arreglo[0];
+}
