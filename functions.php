@@ -77,6 +77,7 @@ function lista($num1){
     rsort($num1);
     return $num1[0];
 };
+/**
  * Issue: #5
  * Created by: @EmmanuelAngelozzi
  * Review by: @VanesaLSilva
@@ -84,11 +85,8 @@ function lista($num1){
  */
 //Como operador necesito una función que calcule la hipotenusa (h2=n2+m2) de un triángulo rectángulo dados sus catetos.
 
-hipotenuza(7, 2);
-
 function hipotenuza($n, $m)
 {
     $h = $m*2 + $n*2;
     return sqrt($h);
-}
-echo hipotenuza(7,2);
+};
