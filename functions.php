@@ -28,3 +28,12 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+<?php
+
+function suma($a,$b) {
+    return  ($a + $b)/2;
+ }
+  
+ echo suma(16,34); 
+
+?>
