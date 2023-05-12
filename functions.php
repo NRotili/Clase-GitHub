@@ -28,3 +28,14 @@
  */
 
 // Comenzar las funciones a partir de esta línea.
+
+/**
+ * Issue: #15
+ * Created by: @VanesaLSilva
+ * Review by: 
+ * Version: 1.0
+ */
+function lista($num1){
+    rsort($num1);
+    return $num1[0];
+}
