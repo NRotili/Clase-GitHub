@@ -67,3 +67,12 @@ function par_nopar ($num){
     $pi_value = 3.14;
     return $pi_value * $radio**2;
  }
+ * Issue: #15
+ * Created by: @VanesaLSilva
+ * Review by: 
+ * Version: 1.0
+ */
+function lista($num1){
+    rsort($num1);
+    return $num1[0];
+}
