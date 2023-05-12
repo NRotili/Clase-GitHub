@@ -21,9 +21,9 @@
 // Ejemplo:
 
 /**
- * Issue: #1
+ * Issue: #16
  * Created by: @nrotili
- * Review by: @gferaboli
+ * Review by: @mariano008
  * Version: 1.0
  */
 
